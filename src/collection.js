@@ -12,6 +12,7 @@ export const containsOnlyStrings = function (collection) {
   });
 };
 
+
 export const getCumulativeMax = function (datasets, dependentAxis) {
   return _.reduce(datasets, (memo, dataset) => {
     dataset = dataset.data || dataset;
