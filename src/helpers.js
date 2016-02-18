@@ -24,7 +24,7 @@ module.exports = {
     };
   },
 
-  getStyles(style, defaultStyles, height, width) {
+  getStyles(style, defaultStyles, height, width) { // eslint-disable-line max-params
     if (!style) {
       return merge({}, defaultStyles, { parent: { height, width } });
     }
