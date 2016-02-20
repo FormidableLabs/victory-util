@@ -20,8 +20,8 @@
     "test": "builder run npm:test"
   },
   "dependencies": {
-    "builder": "~2.4.0",
-    "builder-victory-component": "~0.2.1",
+    "builder": "FormidableLabs/builder#feature-expand-archetype",
+    "builder-victory-component": "FormidableLabs/builder-victory-component#feature-expand-archetype",
     "d3-scale": "^0.2.0",
     "lodash": "^3.10.1",
     "reduce-css-calc": "^1.2.0"
